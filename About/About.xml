@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <name>Component Tweaks</name>
+
+    <author>Phase</author>
+
+    <url>https://github.com/ariscop/</url>
+
+    <targetVersion>v0.0.1</targetVersion>
+
+    <description>Makes the component recipe less demanding</description>
+
+</ModMetaData>

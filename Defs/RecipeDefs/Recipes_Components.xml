@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+
+  <RecipeDef>
+    <defName>MakeComponent</defName>
+    <label>make components</label>
+    <description>Make components.</description>
+    <jobString>Making components.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>15000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>0.05</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Gold</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Components>5</Components>
+    </products>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>10</minLevel>
+			</li>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+</RecipeDefs>
